@@ -1,20 +1,12 @@
 {
   "name": "learnnode",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/Kennubyte/learnnode-ig#readme",
-  "bugs": {
-    "url": "https://github.com/Kennubyte/learnnode-ig/issues"
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kennubyte/learnnode-ig.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node index.js"
+  "peerDependencies": {
+    "typescript": "^5"
   }
 }
